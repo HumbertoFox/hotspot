@@ -11,13 +11,13 @@ span {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: sans-serif, Arial
+    font-family: sans-serif, Arial;
 }
 
 body,
 html {
     min-height: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 a {
-    color: #486173
+    color: #486173;
 }
 
 input,
@@ -35,16 +35,16 @@ label {
     vertical-align: middle;
     white-space: normal;
     background: 0 0;
-    line-height: 1
+    line-height: 1;
 }
 
 label {
     position: relative;
-    display: block
+    display: block;
 }
 
 p::first-letter {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .main {
@@ -56,13 +56,13 @@ p::first-letter {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .ie-fixMinHeight {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
 }
 
 .ico {
@@ -71,51 +71,55 @@ p::first-letter {
     top: 0;
     left: 0;
     margin-top: 13px;
-    margin-left: 14px
+    margin-left: 14px;
 }
 
 .logo {
     max-width: 200px;
     display: block;
-    margin: 0 auto 30px auto
+    margin: 0 auto 30px auto;
+}
+
+.betofoxnet {
+    margin: 0 auto;
 }
 
 .logo * {
-    fill: #fff
+    fill: #FFF;
 }
 
 .lite .logo * {
-    fill: #444
+    fill: #444;
 }
 
 h1 {
     text-align: center;
-    color: #fff;
-    font-size: 24px !important
+    color: #FFF;
+    font-size: 24px !important;
 }
 
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .wrap {
     margin: auto;
     padding: 40px;
     -webkit-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out
+    transition: width .3s ease-in-out;
 }
 
 @media only screen and (min-width:1px) and (max-width:575px) {
     .wrap {
-        width: 100%
+        width: 100%;
     }
 }
 
 form {
     width: 100%;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -140,31 +144,31 @@ form {
 
 .fadeIn {
     -webkit-animation-name: fadeIn;
-    animation-name: fadeIn
+    animation-name: fadeIn;
 }
 
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both
+    animation-fill-mode: both;
 }
 
 .info {
     color: #fff;
     text-align: center;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 input {
     outline: 0;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none
+    appearance: none;
 }
 
 input:focus {
-    outline: 0
+    outline: 0;
 }
 
 input[type=password],
@@ -179,17 +183,17 @@ input[type=text] {
     -webkit-transition: -webkit-box-shadow .3s ease-in-out;
     transition: -webkit-box-shadow .3s ease-in-out;
     transition: box-shadow .3s ease-in-out;
-    transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out
+    transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
 }
 
 input[type=password]:focus,
 input[type=text]:focus {
     -webkit-box-shadow: 0 0 5px 0 rgba(255, 255, 255, 1);
-    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 1)
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 1);
 }
 
 .bt {
-    opacity: .4
+    opacity: .4;
 }
 
 input[type=submit] {
@@ -202,87 +206,93 @@ input[type=submit] {
     height: 44px;
     border-radius: 6px;
     -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out
+    transition: background .3s ease-in-out;
 }
 
 input[type=submit]:focus,
 input[type=submit]:hover {
-    background: #33404a
+    background: #33404A;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 table td {
     color: #fff;
     border-bottom: 1px solid #e6e6e6;
-    padding: 10px 4px 10px 0
+    padding: 10px 4px 10px ;
 }
 
 table td:first-child {
-    font-weight: 700
+    font-weight: 700;
 }
 
 .lite {
-    background: #fff
+    background: #FFF;
 }
 
 .lite input[type=password],
 .lite input[type=text] {
-    border: 1px solid #c3c3c3
+    border: 1px solid #C3C3C3;
 }
 
 .lite .info,
 .lite h1,
 .lite table td {
-    color: #444
+    color: #444;
 }
 
 .lite input[type=password]:focus,
 .lite input[type=text]:focus {
     -webkit-box-shadow: 0 0 5px 0 rgba(62, 77, 89, .2);
-    box-shadow: 0 0 5px 0 rgba(62, 77, 89, .2)
+    box-shadow: 0 0 5px 0 rgba(62, 77, 89, .2);
 }
 
 .dark {
-    background: #343434
+    background: #343434;
 }
 
 .dark input[type=submit] {
-    background: #dc3a41
+    background: #DC3A41;
 }
 
 .dark input[type=submit]:focus,
 .dark input[type=submit]:hover {
-    background: #b92f35
+    background: #B92F35;
 }
 
 .dark input[type=password],
 .dark input[type=text] {
-    background-color: #fff
+    background-color: #FFF;
 }
 
 .dark a {
-    color: #dc3a41
+    color: #DC3A41;
 }
 
 .dark table td {
-    border-bottom: 1px solid #505050
+    border-bottom: 1px solid #505050;
 }
 
 .info.alert {
-    color: #da3d41
+    color: #DA3D41;
 }
 
 @media (min-width:576px) {
     .wrap {
-        width: 410px
+        width: 410px;
     }
 
     * {
-        font-size: 14px !important
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width:375px) {
+    body {
+        width: 375px;
     }
 }
