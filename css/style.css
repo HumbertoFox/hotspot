@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background: #a2a09b;
+    background: #A2A09B;
     background: -webkit-linear-gradient(315deg, hsla(236.6, 0%, 53.52%, 1) 0, hsla(236.6, 0%, 53.52%, 0) 70%), -webkit-linear-gradient(65deg, hsla(220.75, 34.93%, 26.52%, 1) 10%, hsla(220.75, 34.93%, 26.52%, 0) 80%), -webkit-linear-gradient(135deg, hsla(46.42, 36.62%, 83.92%, 1) 15%, hsla(46.42, 36.62%, 83.92%, 0) 80%), -webkit-linear-gradient(205deg, hsla(191.32, 50.68%, 56.45%, 1) 100%, hsla(191.32, 50.68%, 56.45%, 0) 70%);
     background: linear-gradient(135deg, hsla(236.6, 0%, 53.52%, 1) 0, hsla(236.6, 0%, 53.52%, 0) 70%), linear-gradient(25deg, hsla(220.75, 34.93%, 26.52%, 1) 10%, hsla(220.75, 34.93%, 26.52%, 0) 80%), linear-gradient(315deg, hsla(46.42, 36.62%, 83.92%, 1) 15%, hsla(46.42, 36.62%, 83.92%, 0) 80%), linear-gradient(245deg, hsla(191.32, 50.68%, 56.45%, 1) 100%, hsla(191.32, 50.68%, 56.45%, 0) 70%)
 }
@@ -78,6 +78,10 @@ p::first-letter {
     max-width: 200px;
     display: block;
     margin: 0 auto 30px auto;
+}
+
+.form-info {
+    display: none;
 }
 
 .betofoxnet {
@@ -155,7 +159,7 @@ form {
 }
 
 .info {
-    color: #fff;
+    color: #FFF;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -197,8 +201,8 @@ input[type=text]:focus {
 }
 
 input[type=submit] {
-    background: #3e4d59;
-    color: #fff;
+    background: #3E4d59;
+    color: #FFF;
     border: 0;
     cursor: pointer;
     text-align: center;
@@ -221,8 +225,8 @@ table {
 }
 
 table td {
-    color: #fff;
-    border-bottom: 1px solid #e6e6e6;
+    color: #FFF;
+    border-bottom: 1px solid #E6E6E6;
     padding: 10px 4px 10px ;
 }
 
