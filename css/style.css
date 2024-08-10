@@ -78,6 +78,7 @@ p::first-letter {
     max-width: 200px;
     display: block;
     margin: 0 auto 30px auto;
+    animation: animeLogo .7s linear both;
 }
 
 .form-info {
@@ -112,7 +113,7 @@ h1 {
     margin: auto;
     padding: 40px;
     -webkit-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
+    transition: width .4s ease-in-out;
 }
 
 @media only screen and (min-width:1px) and (max-width:575px) {
@@ -143,6 +144,28 @@ form {
 
     to {
         opacity: 1
+    }
+}
+
+@keyframes animeLogo {
+	0% {
+        transform: translate3d(-200%, -200%, 0) rotate(360deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes animeLogo {
+	0% {
+        transform: translate3d(-200%, 0, 0) rotate(360deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
     }
 }
 
@@ -184,10 +207,10 @@ input[type=text] {
     margin-bottom: 20px;
     border-radius: 6px;
     background-color: rgba(255, 255, 255, .8);
-    -webkit-transition: -webkit-box-shadow .3s ease-in-out;
-    transition: -webkit-box-shadow .3s ease-in-out;
-    transition: box-shadow .3s ease-in-out;
-    transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+    -webkit-transition: -webkit-box-shadow .4s ease-in-out;
+    transition: -webkit-box-shadow .4s ease-in-out;
+    transition: box-shadow .4s ease-in-out;
+    transition: box-shadow .4s ease-in-out, -webkit-box-shadow .4s ease-in-out;
 }
 
 input[type=password]:focus,
